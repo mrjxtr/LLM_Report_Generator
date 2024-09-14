@@ -1,0 +1,55 @@
+# *THIS IS JUST A TEMPLATE! DO NOT USE THIS FILE!*
+
+version: '3.8'
+
+services:
+  scraping:
+    build: .
+    container_name: scraping_container
+    volumes:
+      - .:/app                      # Mounts the current directory to the /app directory in the container
+    environment:
+      - ENV=production
+    depends_on:
+      - database                    # Ensure scraping waits for database to start
+    networks:
+      - project_network
+    command: ["python", "src/scraping/scraper_static.py"]  # Updated path
+
+  database:
+    image: postgres:13
+    container_name: db_container
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: scraping_db
+    volumes:
+      - db_data:/var/lib/postgresql/data
+    networks:
+      - project_network
+
+  data_processing:
+    build: .
+    container_name: data_processing_container
+    volumes:
+      - .:/app
+    networks:
+      - project_network
+    command: ["python", "src/features.py"]
+
+  modeling:
+    build: .
+    container_name: modeling_container
+    volumes:
+      - .:/app
+    networks:
+      - project_network
+    command: ["python", "src/modeling/train.py"]
+
+networks:
+  project_network:
+
+volumes:
+  db_data:
+
+# *THIS IS JUST A TEMPLATE! DO NOT USE THIS FILE!*

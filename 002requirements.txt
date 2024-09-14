@@ -1,0 +1,90 @@
+##################################
+# ADVANCE DATA SCIENCE LIBRARIES #
+##################################
+
+# Numerical Computing
+numpy
+# Scientific Computing
+scipy
+# Data Manipulation and Analysis
+pandas
+
+# Database Interaction:
+
+# SQL Toolkit and Object-Relational Mapping
+SQLAlchemy
+
+# Statistical Analysis:
+
+# Statistical Modeling
+statsmodels
+# Machine Learning
+scikit-learn
+
+# Data Visualization:
+
+# 2D Plotting and Data Visualization
+matplotlib
+# Statistical Data Visualization
+seaborn
+# Interactive Data Visualization
+plotly
+# Excel File Handling
+openpyxl
+# Excel File Reading
+xlrd
+
+# Jupyter Ecosystem:
+
+# Jupyter Notebook Interface
+notebook
+# IPython Kernel for Jupyter
+ipykernel
+# Jupyter Notebook Conversion
+nbconvert
+
+# Exploratory Data Analysis:
+
+# Detailed Data Reports
+pandas-profiling
+
+# Web Scraping:
+
+# HTML and XML Parsing for Web Scraping
+beautifulsoup4
+# HTTP Requests and Web Scraping
+requests
+# Browser Automation
+selenium
+# Web Crawling and Scraping
+scrapy
+
+# Machine Learning Python Libraries:
+
+# Gradient Boosting Framework for Machine Learning
+lightgbm
+# Scalable and Accurate Boosting for Machine Learning
+xgboost
+# Facebook data forecasting
+prophet
+
+# Deep Learning:
+
+# End-to-End Open-Source Platform for Deep Learning
+tensorflow
+# Deep Learning Framework with Dynamic Computation Graphs
+torch
+# High-Level Deep Learning API
+keras
+
+# Natural Language Processing:
+
+# Natural Language Processing Toolkit
+nltk
+# Industrial-Strength Natural Language Processing
+spacy
+# Pre-trained Models for Natural Language Processing
+transformers
+
+# Environment variables:
+python-dotenv
