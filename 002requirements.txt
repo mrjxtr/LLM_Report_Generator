@@ -1,13 +1,21 @@
-##################################
-# ADVANCE DATA SCIENCE LIBRARIES #
-##################################
+#############################################
+# DATA SCIENCE, AI, & DEVELOPMENT LIBRARIES #
+#############################################
 
 # Numerical Computing
 numpy
+
 # Scientific Computing
 scipy
+
 # Data Manipulation and Analysis
 pandas
+
+# Excel File Handling
+openpyxl
+
+# Excel File Reading
+xlrd
 
 # Database Interaction:
 
@@ -18,6 +26,7 @@ SQLAlchemy
 
 # Statistical Modeling
 statsmodels
+
 # Machine Learning
 scikit-learn
 
@@ -25,21 +34,21 @@ scikit-learn
 
 # 2D Plotting and Data Visualization
 matplotlib
+
 # Statistical Data Visualization
 seaborn
+
 # Interactive Data Visualization
 plotly
-# Excel File Handling
-openpyxl
-# Excel File Reading
-xlrd
 
 # Jupyter Ecosystem:
 
 # Jupyter Notebook Interface
 notebook
+
 # IPython Kernel for Jupyter
 ipykernel
+
 # Jupyter Notebook Conversion
 nbconvert
 
@@ -52,10 +61,13 @@ pandas-profiling
 
 # HTML and XML Parsing for Web Scraping
 beautifulsoup4
+
 # HTTP Requests and Web Scraping
 requests
+
 # Browser Automation
 selenium
+
 # Web Crawling and Scraping
 scrapy
 
@@ -63,17 +75,21 @@ scrapy
 
 # Gradient Boosting Framework for Machine Learning
 lightgbm
+
 # Scalable and Accurate Boosting for Machine Learning
 xgboost
-# Facebook data forecasting
+
+# Facebook Data Forecasting
 prophet
 
 # Deep Learning:
 
 # End-to-End Open-Source Platform for Deep Learning
 tensorflow
+
 # Deep Learning Framework with Dynamic Computation Graphs
 torch
+
 # High-Level Deep Learning API
 keras
 
@@ -81,10 +97,29 @@ keras
 
 # Natural Language Processing Toolkit
 nltk
+
 # Industrial-Strength Natural Language Processing
 spacy
+
 # Pre-trained Models for Natural Language Processing
 transformers
 
-# Environment variables:
+# Environment Variables:
+
+# Loading Environment Variables
 python-dotenv
+
+# OpenAI:
+
+# OpenAI API
+openai
+
+# Encryption:
+
+# Encryption Library
+cryptography
+
+# YAML File Handling:
+
+# YAML File Handling
+pyyaml

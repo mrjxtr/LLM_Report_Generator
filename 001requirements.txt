@@ -1,15 +1,19 @@
-####################################
-# ESSENTIAL DATA SCIENCE LIBRARIES #
-####################################
+##########################
+# DATA SCIENCE LIBRARIES #
+##########################
 
 # Numerical Computing
 numpy
-# Scientific Computing
+
+# Scientific Computing and Advanced Math
 scipy
+
 # Data Manipulation and Analysis
 pandas
+
 # Excel File Handling
 openpyxl
+
 # Excel File Reading
 xlrd
 
@@ -20,17 +24,20 @@ SQLAlchemy
 
 # Statistical Analysis:
 
-# Statistical Modeling
+# Statistical Modeling and Hypothesis Testing
 statsmodels
-# Machine Learning
+
+# Machine Learning Algorithms
 scikit-learn
 
 # Data Visualization:
 
 # 2D Plotting and Data Visualization
 matplotlib
+
 # Statistical Data Visualization
 seaborn
+
 # Interactive Data Visualization
 plotly
 
@@ -38,15 +45,24 @@ plotly
 
 # Jupyter Notebook Interface
 notebook
+
 # IPython Kernel for Jupyter
 ipykernel
+
 # Jupyter Notebook Conversion
 nbconvert
 
 # Exploratory Data Analysis:
 
-# Detailed Data Reports
+# Automated EDA Reports
 pandas-profiling
 
-# Environment variables:
+# Environment Variables:
+
+# Loading Environment Variables
 python-dotenv
+
+# Other Utilities:
+
+# YAML File Handling
+pyyaml
