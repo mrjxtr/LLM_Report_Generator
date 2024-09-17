@@ -85,3 +85,9 @@ print("Report saved as 'generated_report.txt'")
 3. **Display/Save Report:** The generated report is displayed or saved locally as a text file.
 
 This setup allows you to handle input data, generate reports, and save them, all using Python scripts. Just ensure you have API access for ChatGPT via the OpenAI platform.
+
+---
+
+### Contribution
+
+We welcome contributions to this project! To contribute, please fork the repository, create a new branch for your feature or bug fix, and submit a pull request. Ensure that your code is clean and well-documented, following the project's coding style. Additionally, feel free to open issues for bug reports, suggestions, or questions. All contributions are reviewed, and we encourage open collaboration to enhance the functionality and usability of this project. Thank you for helping us improve!
